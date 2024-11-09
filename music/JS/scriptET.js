@@ -469,7 +469,7 @@ document.getElementById("playButton").addEventListener("click", function () {
   const audioPlayer = document.getElementById("audioPlayer");
 
   // Set the source of the video player
-  audioPlayer.src = "../assets/Songs/" + randomAudio;
+  audioPlayer.src = "../Assets/Songs/" + randomAudio;
 
   // Load and play the video
   audioPlayer.load();
