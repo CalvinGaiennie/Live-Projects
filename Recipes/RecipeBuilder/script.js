@@ -173,14 +173,56 @@ const chickenParmesean = {
   },
 };
 
+const meatLoaf = {
+  title: ["Meatloaf"],
+  ingredients: [
+    "{groundBeef}lbs of ground beef",
+    "{breadCrumbs} cups of breadcrumbs",
+    "{milk} cups of milk",
+    "{onion} onions finely minced",
+    "{garlic} garlic clove",
+    "{egg} eggs",
+    "{ketchup} tablestoons of ketchup",
+    "{worcestershire} tablespoons of Worcerstershire sauce",
+    "{salt} teaspoons of salt",
+    "{pepper} teaspoons of black pepper",
+    "{ketchupS} cups of ketchup",
+  ],
+  steps: [
+    "Step 1: Preheat the oven to 350",
+    "Step 2: Mix the ground beef, breadcrumbs, milk, onion, garlic, egg, {ketchup} tablespoons of ketchup, Worcestershire, salt, and pepper, gently in a large bowl with your hands until everytthing is just combined. Dont overmix, as this can make the meatloaf tough.",
+    "Step 3: Shape the loaf in a pan or baking dish.",
+    "Step 4: Spread {ketchupS} cups of ketchup over the top of the meatloaf.",
+    "Step 5: Bake it for 55-65 minutes.",
+    "Step 6: Let it rest for 5-10 minutes before slicing. This helps it hold together when you cut it.",
+    "Step 7: Serve ",
+  ],
+  ingredientMap: {
+    groundBeef: 1,
+    breadCrumbs: 0.5,
+    milk: 0.5,
+    onion: 1,
+    garlic: 1,
+    egg: 1,
+    ketchup: 2,
+    worcestshire: 1,
+    salt: 1,
+    pepper: 0.5,
+    ketchupS: 0.25,
+  },
+};
+
 const recipes = {
   beefNoodlesCopy: beefNoodlesCopy,
   chickenParmesean: chickenParmesean,
   chickenSalad: chickenSalad,
   pitaBread: pitaBread,
   sushiRice: sushiRice,
+  meatLoaf: meatLoaf,
 };
+
 let recipe = recipes[selectedRecipe];
+
 //Functions
 function getRecipe() {
   selectedRecipe = recipeList.value;
