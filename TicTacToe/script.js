@@ -9,7 +9,7 @@ let currentPlayer = "blue";
 /////////////////////////////////////////////////////////////
 //Functions
 ////Creates an HTML element
-function createEl(type, text, id, class1, class2, func) {
+function createEl(type, text, id, class1, class2, class3, func) {
   const el = document.createElement(type);
   if (text) {
     el.innerHTML = text;
@@ -19,6 +19,9 @@ function createEl(type, text, id, class1, class2, func) {
   }
   if (class2) {
     el.classList.add(class2);
+  }
+  if (class3) {
+    el.classList.add(class3);
   }
   if (id) {
     el.id = id;
@@ -56,6 +59,7 @@ function changePlayer() {
   }
 }
 
+function checkForWin() {}
 /////////////////////////////////////////////////////////
 //Initial Setup
 //Sets up the Board
@@ -66,7 +70,8 @@ for (let i = 0; i <= 8; i++) {
   for (let j = 0; j <= 8; j++) {
     const id = `${letter}${j}`;
     const iString = "board" + i;
-    const el = createEl("button", undefined, id, "square", iString, "true");
+    const iS = i + "";
+    const el = createEl("button", undefined, id, "square", iString, iS, "true");
     board.appendChild(el);
   }
   bigBoard.appendChild(board);
