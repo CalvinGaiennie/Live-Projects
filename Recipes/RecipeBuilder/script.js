@@ -183,7 +183,7 @@ const meatLoaf = {
     "{garlic} garlic clove",
     "{egg} eggs",
     "{ketchup} tablestoons of ketchup",
-    "{worcestershire} tablespoons of Worcerstershire sauce",
+    "{worcestshire} tablespoons of Worcerstershire sauce",
     "{salt} teaspoons of salt",
     "{pepper} teaspoons of black pepper",
     "{ketchupS} cups of ketchup",
