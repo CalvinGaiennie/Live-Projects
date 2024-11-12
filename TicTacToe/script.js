@@ -1,6 +1,8 @@
 "use strict";
 //Get Elements
 const bigBoard = document.getElementById("big-board");
+const currentPlayerEl = document.getElementById("currentPlayerH");
+const currentPlayerDiv = document.getElementById("currentPlayerDiv");
 
 //Other Variables
 const alphabet = ["A", "B", "C", "D", "E", "F", "G", "H", "I"];
@@ -66,9 +68,11 @@ function squareClicked(el, id) {
 //Changes the current player and the document background color
 function changePlayer() {
   if (currentPlayer == "red") {
+    currentPlayerEl.innerHTML = "Current Player: Blue";
     document.body.style.backgroundColor = "lightblue";
     currentPlayer = "blue";
   } else if (currentPlayer == "blue") {
+    currentPlayerEl.innerHTML = "Current Player: Red";
     document.body.style.backgroundColor = "rgb(254, 97, 97)";
     currentPlayer = "red";
   }
