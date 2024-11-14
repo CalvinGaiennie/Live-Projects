@@ -1,23 +1,82 @@
-/* .indent {
-  padding-left: 20px;
+/* Elements */
+:root {
+  --secondary-color: white;
+  --tertiary-color: #3498db;
 }
 
-.double-indent {
-  padding-left: 20px;
-} */
-
-div {
-  padding-left: 20px;
+body {
+  margin-left: 0px;
 }
 a {
   color: black;
   text-decoration: none;
+  margin-left: 45px;
 }
 
-#body-text {
-  padding-left: 30px;
+h1 {
+  margin-left: 15px;
 }
+
+h2 {
+  margin-left: 30px;
+}
+
+h3 {
+  margin-left: 30px;
+}
+
+h4 {
+  margin-left: 45px;
+}
+p {
+  margin-left: 45px;
+}
+/* IDs */
 
 #title {
-  padding-left: 15px;
+  width: 250px;
+  margin-left: 100px;
+}
+#other-projects {
+  padding-top: 0px;
+}
+
+#other-projects-title {
+  margin-left: 80px;
+}
+
+/* Classes */
+.alt {
+  padding: 40px;
+  background-color: #303030;
+  color: var(--secondary-color);
+}
+.alt a {
+  color: var(--secondary-color);
+}
+.standard {
+  padding: 40px;
+}
+.band {
+  display: flex;
+}
+
+.two-columns {
+  column-count: 2; /* Creates two columns */
+  column-gap: 20px; /* Optional: Adds space between the columns */
+}
+
+.language-background {
+  background-image: url("photos/computer-photo.png"); /* Set the image */
+  background-size: cover; /* Makes the background image cover the entire div */
+  background-position: center; /* Centers the image within the div */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 300px; /* Set a height for the div */
+}
+
+.additions-background {
+  background-image: url("photos/loggin.png"), url("photos/loginn.jpg"); /* Set the image */
+  background-position: 60%, 100%;
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 300px; /* Set a height for the div */
 }
