@@ -6,6 +6,7 @@
 
 body {
   margin-left: 0px;
+  line-height: 1.5;
 }
 a {
   color: black;
@@ -42,7 +43,7 @@ p {
 }
 
 #other-projects-title {
-  margin-left: 80px;
+  margin-left: 45px;
 }
 
 /* Classes */
@@ -56,8 +57,9 @@ p {
 }
 .standard {
   padding: 40px;
+  background-color: #eeeeee;
 }
-.band {
+.flex {
   display: flex;
 }
 
@@ -79,4 +81,13 @@ p {
   background-position: 60%, 100%;
   background-repeat: no-repeat; /* Prevents the image from repeating */
   height: 300px; /* Set a height for the div */
+}
+
+.steps-background {
+  background-image: url("photos/udemy-tra.webp"); /* Set the image */
+  background-size: 400px 200px;
+  background-position: 90%; /* Centers the image within the div */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 300px; /* Set a height for the div */
+  z-index: 2;
 }
