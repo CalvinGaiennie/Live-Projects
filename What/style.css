@@ -73,14 +73,13 @@ p {
   background-size: cover; /* Makes the background image cover the entire div */
   background-position: center; /* Centers the image within the div */
   background-repeat: no-repeat; /* Prevents the image from repeating */
-  height: 300px; /* Set a height for the div */
 }
 
 .additions-background {
   background-image: url("photos/loggin.png"), url("photos/loginn.jpg"); /* Set the image */
   background-position: 60%, 100%;
   background-repeat: no-repeat; /* Prevents the image from repeating */
-  height: 300px; /* Set a height for the div */
+  height: 300px;
 }
 
 .steps-background {
@@ -88,6 +87,5 @@ p {
   background-size: 400px 200px;
   background-position: 90%; /* Centers the image within the div */
   background-repeat: no-repeat; /* Prevents the image from repeating */
-  height: 300px; /* Set a height for the div */
   z-index: 2;
 }
