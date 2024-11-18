@@ -89,3 +89,11 @@ p {
   background-repeat: no-repeat; /* Prevents the image from repeating */
   z-index: 2;
 }
+
+@media (max-width: 929px) {
+  .language-background,
+  .additions-background,
+  .steps-background {
+    background-image: none;
+  }
+}
