@@ -82,13 +82,13 @@ p {
   height: 300px;
 }
 
-.steps-background {
+/* .steps-background {
   background-image: url("photos/udemy-tra.webp"); /* Set the image */
-  background-size: 400px 200px;
+/* background-size: 400px 200px;
   background-position: 90%; /* Centers the image within the div */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
-  z-index: 2;
-}
+/* background-repeat: no-repeat; Prevents the image from repeating */
+/* z-index: 2; */
+/* } */
 
 @media (max-width: 929px) {
   .language-background,
