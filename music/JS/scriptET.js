@@ -468,10 +468,10 @@ document.getElementById("playButton").addEventListener("click", function () {
   // Get the audio player element
   const audioPlayer = document.getElementById("audioPlayer");
 
-  // Set the source of the video player
+  // Set the source of the audio player
   audioPlayer.src = "../Assets/Songs/" + randomAudio;
 
-  // Load and play the video
+  // Load and play the audio
   audioPlayer.load();
   audioPlayer.play();
 
