@@ -1,0 +1,10 @@
+.body > div {
+  margin: 20px;
+}
+div > :not(h1) {
+  padding-left: 10px;
+}
+
+.flex {
+  display: flex;
+}
